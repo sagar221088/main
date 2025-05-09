@@ -59,6 +59,15 @@
           "z": 3000.00
         },
         {
+          "config": "{\"name\":\"92e58c0384a574939300\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080.0253004427577,\"y\":0,\"z\":5001,\"width\":186.2112586970272,\"height\":362.7071473750791,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Date.Fiscal Quarter)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"}},\"Function\":3},\"Name\":\"Min(Date.Fiscal Quarter)\",\"NativeReferenceName\":\"First Fiscal Quarter\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 362.71,
+          "width": 186.21,
+          "x": 1080.03,
+          "y": 0.00,
+          "z": 5001.00
+        },
+        {
           "config": "{\"name\":\"ddc669d1ed997bf82754\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.937618147448017,\"y\":0,\"z\":5000,\"width\":489.98109640831757,\"height\":53.232514177693766}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Executive Summary - Sales Report\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
           "height": 53.23,
