@@ -36,6 +36,7 @@ relationship cecf591c-1f02-44a6-bff1-1c753a0b4835
 	toColumn: 'Sales Territory'.SalesTerritoryKey
 
 relationship 8e31fd7b-1e63-43a9-8a47-33876ae8aed6
+	crossFilteringBehavior: bothDirections
 	fromColumn: Sales.OrderDateKey
 	toColumn: Date.DateKey
 
